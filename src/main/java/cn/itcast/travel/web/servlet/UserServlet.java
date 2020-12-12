@@ -17,6 +17,9 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 
+/**
+ *用户controller
+ */
 @WebServlet("/user/*")
 public class UserServlet extends BaseServlet {
     //声明UserService业务对象
